@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arima; 
+    background-color: #f5efef;
+}
+
+legend { 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+input[type="submit"],
+input[type="reset"]{
+    background-color: rgba(0,0,0, 0.3); 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 15px

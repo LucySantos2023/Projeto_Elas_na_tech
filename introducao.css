@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-family: Arima; 
+    background-color: #f5efef;
+}
+
+.logo {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 2;
+}  
+
+.logo img {
+  width: 100px; 
+  height: auto; 
+  border-radius: 50%;
+}
+
+header.hero {
+  padding-top: 20px;
+}
+
+.hero{
+  background-image: url('../imagens/banner capa.jpg');  
+  min-height: 350px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 1px; 
+}
+
+.hero-content{
+  margin: 50px auto 0;
+  width: 80%;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1{
+  font-size: 70px;
+  text-shadow: 2px 2px 2px black;
+  text-transform: uppercase; 
+  margin-bottom: 0;
+}
+
+.hero-content p{
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  display: inline-block;
+  padding: 12px;
+  border-bottom: 2px solid;
+}
+
+.hero nav{
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  align-items: center;
+}
+
+.hero nav ul{
+  margin: 0;
+  text-align: center;
+}
+
+.hero nav li{
+  display: inline-block; 
+  list-style-type: none;
+  border: 1px solid white;
+  margin-left: 12px;
+}
+
+.hero nav a{
+  background-color: rgba(0,0,0, 0.3);
+  padding: 12px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px; 
+}
+
+.hero nav a:hover{
+  background-color: rgba(0,0,0, 0.5);
+}
+
+
+main{
+  width: 90%;
+  margin: auto;
+  max-width: 860px; 
+  margin-top: 20px;
+}
+
+.main-content{
+  margin-top: 200px;
+}
+
+article{
+  background-color: white;
+  padding: 16px;
+  margin-bottom: 32px;
+  margin-top: 32px; 
+}
+
+article h2{
+  border-bottom: 2px solid #ccc;
+  background-color: #eee;
+  padding: 12px;
+  margin-top: 0;
+}
+
+.rodape{
+  color: rgba(197,211,0,255);
+  background-color: #6b6c68;
+  text-align: center;
+  padding: 30px;
+  text-shadow: 2px 2px 2px black;
+}
+
+
+
+

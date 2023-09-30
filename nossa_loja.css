@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: Arima; 
+    background-color: #f5efef;
+}
+
+h1{
+    margin: 0px;
+    font-size: 55px;
+    text-align: center;
+    padding: 70px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase; 
+}
+
+p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo {
+  position: absolute;
+  top: 20px; 
+  left: 20px; 
+}  
+
+.logo img {
+  width: 100px; 
+  height: auto; 
+  border-radius: 50%;
+}
+
+.hero{
+  background-image: url('../imagens/banner capa.jpg');  
+  height: 350px;
+  background-size: cover;
+  background-position: right center;
+  color: white;
+  padding-top: 1px; 
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img{
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .8);
+}
+
+.rodape{
+    color: rgba(197,211,0,255);
+    background-color: #6b6c68;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .menu ul{
+    margin: 20px 80px 0 0;
+    text-align: center;
+  }
+  
+  .menu li{
+    display: inline-block; 
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 6px;
+  }
+  
+  .menu a{
+    background-color: rgba(0,0,0, 0.3);
+    padding: 12px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px; 
+  }
+  
+  .menu a:hover{
+    background-color: rgba(0,0,0, 0.5);
+  }  
