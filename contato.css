@@ -4,19 +4,6 @@ body {
   background-color: #f5efef;
 } 
       
-.logo {
-  position:fixed;
-  bottom: 20px; 
-  right: 20px; 
-  z-index: 2;
-}  
-
-.logo img {
-  width: 100px; 
-  height: auto; 
-  border-radius: 50%;
-}
-
 form { 
   max-width: 400px; 
   margin: 8px auto 0; 
@@ -114,8 +101,26 @@ input[type="submit"]:hover {
   text-align: center;
   padding: 30px;
   text-shadow: 2px 2px 2px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.logo-rodape img{
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 .localizacao {
   margin-top: 100px;
 }
+
+@media screen and (max-width: 768px){
+  .hero {
+    display: block;
+  }
+}
+

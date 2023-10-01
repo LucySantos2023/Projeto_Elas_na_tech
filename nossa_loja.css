@@ -20,17 +20,24 @@ p{
     margin-right: 20px;
 }
 
-.logo {
-  position: absolute;
-  top: 20px; 
-  left: 20px; 
-}  
-
-.logo img {
-  width: 100px; 
-  height: auto; 
-  border-radius: 50%;
+.rodape{
+  color: rgba(197,211,0,255);
+  background-color: #6b6c68;
+  text-align: center;
+  padding: 30px;
+  text-shadow: 2px 2px 2px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.logo-rodape img{
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
 
 .hero{
   background-image: url('../imagens/banner capa.jpg');  
@@ -55,15 +62,6 @@ p{
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .8);
 }
 
-.rodape{
-    color: rgba(197,211,0,255);
-    background-color: #6b6c68;
-    text-align: center;
-    padding: 30px;
-    text-shadow: 2px 2px 2px black;
-    width: 100%;
-    bottom: 0;
-  }
 
   .menu ul{
     margin: 20px 80px 0 0;
@@ -91,3 +89,11 @@ p{
   .menu a:hover{
     background-color: rgba(0,0,0, 0.5);
   }  
+
+  @media screen and (max-width: 768px){
+    .hero {
+      display: block;
+    }
+  }
+  
+  

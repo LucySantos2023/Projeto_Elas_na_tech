@@ -31,6 +31,19 @@
     color:#333;
 }
 
+.texto-com-imagem{
+  display: flex;
+  align-items: center;
+}
+
+.texto-com-imagem p {
+    flex: 1;
+}
+
+.texto-com-imagem img{
+    margin-left: 20px;
+    max-width: 200px;
+}
 
 </style>
 
@@ -38,11 +51,6 @@
 
 
 <body>
-
-
-    <div class="logo">
-            <img src="imagens/logotipo.jpg" alt="Logotipo da loja">
-        </div>
     
       <header class="hero"> 
               
@@ -63,7 +71,7 @@
     <main>
         <section>
             <article>
-
+                <div class="texto-com-imagem">
 
             <p>Olá, sou Luciana, mãe do pequeno Ethan de 7 anos de idade e na busca de uma melhor qualidade de vida, busquei alternativas para uma renda onde eu tivesse mais tempo livre em casa. Venho do mundo corporativo onde a distância da residência até o trabalho me consumia um precioso tempo que era jogado no lixo, pois eram horas desperdiçadas no trânsito.
             Mudei da cidade grande para o campo e nessa mudança ainda continuei a buscar uma oportunidade no mundo corporativo, mas, cidade pequena, poucas oportunidades. 
@@ -72,6 +80,8 @@
             Minha jornada no Elas na tech se resume a: do zero à produção de um site super completo. 
             Além de toda a bagagem de cursos oferecida na plataforma da IBM. Só tenho a agradecer imensamente pela oportunidade oferecida a tantas mulheres fornecendo um conteúdo de altíssima qualidade.              
             </p>
+                <img src="imagens/Luciana.jpeg" alt="Foto de Luciana">
+                </div>
 
             </article>
         </section>
@@ -84,7 +94,10 @@
     </div>
 
     <footer class="rodape">
-        Copyright &copy; 2023 - Frutas na Parede
+        <div class="logo-rodape">
+            <img src="imagens/logotipo.jpg" alt="Logotipo da loja">
+        </div>
+      <p>Copyright &copy; 2023 - Frutas na Parede</p>
     </footer>
 
 </body>
